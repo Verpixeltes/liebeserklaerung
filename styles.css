@@ -987,3 +987,12 @@ body {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+.flower__line__leaf--1,
+.flower__line__leaf--2,
+.flower__line__leaf--3,
+.flower__line__leaf--4,
+.flower__line__leaf--5,
+.flower__line__leaf--6 {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
