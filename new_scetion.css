@@ -1,0 +1,23 @@
+/* Import the Figtree font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap');
+
+.new-section {
+    position: absolute;
+    top: 110vh; /* Ensure it appears below the existing scene */
+    padding: 20px;
+    color: white;
+    z-index: 3; /* Ensure it is above the background */
+    text-align: center; /* Center text horizontally */
+    font-family: 'Figtree', sans-serif; /* Apply Figtree font */
+}
+
+.new-section h1 {
+    margin: 0 auto; /* Center the h1 element */
+    font-family: 'Figtree', sans-serif; /* Apply Figtree font */
+}
+
+.center-text {
+    text-align: center;
+    position: absolute;
+    top: 4000px;
+  }
